@@ -1,4 +1,5 @@
-📩 SMS Spam Detection
+📩 SMS SPAM DETECTION
+
 🔎 Overview
 
 SMS Spam Detection is a machine learning project that takes an SMS as input and predicts whether the message is 📬 Spam or ✅ Not Spam.
@@ -6,25 +7,25 @@ The model is built with Python and deployed on the web using Streamlit for easy 
 
 🛠️ Technology Stack
 
-  🐍 Python
+    🐍 Python
 
-  📊 Pandas & NumPy
+    📊 Pandas & NumPy
 
-  🤖 Scikit-learn
+    🤖 Scikit-learn
 
-  🌐 Streamlit
+    🌐 Streamlit
 
 ✨ Features
 
-  📥 Data collection
+    📥 Data collection
 
-  🧹 Data cleaning & preprocessing
+    🧹 Data cleaning & preprocessing
 
-  📊 Exploratory Data Analysis (EDA)
+    📊 Exploratory Data Analysis (EDA)
 
-  🧠 Model building & selection
+    🧠 Model building & selection
 
-  🚀 Web deployment with Streamlit
+    🚀 Web deployment with Streamlit
 
 📥 Data Collection
 
@@ -33,49 +34,49 @@ The model is built with Python and deployed on the web using Streamlit for easy 
 
 🧹 Data Cleaning & Preprocessing
 
-  Removed null & duplicate values
+  - Removed null & duplicate values
 
-  Encoded labels (spam = 1, ham = 0)
+  - Encoded labels (spam = 1, ham = 0)
 
 Preprocessed text:
 
-  🔡 Converted to lowercase
+  - 🔡 Converted to lowercase
 
-  ✂️ Removed special characters, punctuation & stopwords
+  - ✂️ Removed special characters, punctuation & stopwords
 
-  🌱 Applied stemming
+  - 🌱 Applied stemming
 
 📊 Exploratory Data Analysis (EDA)
 
-  📏 Measured character, word & sentence counts
+  - 📏 Measured character, word & sentence counts
 
-  🔗 Checked correlations between variables
+  - 🔗 Checked correlations between variables
 
-  📈 Visualized using bar charts, pie charts, heatmaps & boxplots
+  - 📈 Visualized using bar charts, pie charts, heatmaps & boxplots
 
-  ☁️ Created word clouds for spam vs non-spam messages
+  - ☁️ Created word clouds for spam vs non-spam messages
 
-  📝 Analyzed most frequent spam keywords
+  - 📝 Analyzed most frequent spam keywords
 
 🧠 Model Building & Selection
 
   Tried multiple ML models:
 
-  ✅ Naive Bayes
+  - ✅ Naive Bayes
 
-  🌲 Random Forest
+  - 🌲 Random Forest
 
-  🌐 Logistic Regression
+  - 🌐 Logistic Regression
 
-  🧩 Decision Tree
+  - 🧩 Decision Tree
 
-  📦 ExtraTreesClassifier
+  - 📦 ExtraTreesClassifier
 
-  🔍 KNN & SVC
+  - 🔍 KNN & SVC
 
-📌 The best classifier achieved 100% precision on spam detection. 🚀
+      📌 The best classifier achieved 100% precision on spam detection. 🚀
 
-  🌐 Web Deployment
+  - 🌐 Web Deployment
 
 Built an interactive Streamlit Web App
 
